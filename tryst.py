@@ -19,6 +19,8 @@ def get_weeks_in_month(year, month):
     weeks = calendar.monthcalendar(year, month)
     return len(weeks)
 
+st.set_page_config(layout="wide")
+
 # Function to display the page
 def display_page(tasks, filename):
     st.title("My Trajectory app")
